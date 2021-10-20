@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/FabricLabs/fabric-zapier/issues"
   },
-  "homepage": "https://github.com/FabricLabs/fabric-zapier#readme"
+  "homepage": "https://github.com/FabricLabs/fabric-zapier#readme",
+  "dependencies": {
+    "@fabric/core": "FabricLabs/fabric#message-relay",
+    "lodash.merge": "^4.6.2"
+  }
 }
