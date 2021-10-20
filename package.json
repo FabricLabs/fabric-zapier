@@ -1,0 +1,24 @@
+{
+  "name": "@fabric/zapier",
+  "version": "0.1.0",
+  "description": "Zapier service for Fabric.",
+  "main": "services/zapier.js",
+  "scripts": {
+    "test": "mocha tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FabricLabs/fabric-zapier.git"
+  },
+  "keywords": [
+    "fabric",
+    "zapier",
+    "webhook"
+  ],
+  "author": "Fabric Labs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FabricLabs/fabric-zapier/issues"
+  },
+  "homepage": "https://github.com/FabricLabs/fabric-zapier#readme"
+}
