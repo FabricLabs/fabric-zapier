@@ -1,7 +1,7 @@
 'use strict';
 
 const merge = require('lodash.merge');
-const Remote = require('@fabric/core/types/remote');
+const Remote = require('@fabric/http/types/remote');
 const Service = require('@fabric/core/types/service');
 
 class Zapier extends Service {
