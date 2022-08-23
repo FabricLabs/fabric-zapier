@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/FabricLabs/fabric-zapier#readme",
   "dependencies": {
-    "lodash.merge": "^4.6.2"
+    "lodash.merge": "4.6.2"
   },
   "peerDependencies": {
     "@fabric/core": "FabricLabs/fabric#feature/node-16",
