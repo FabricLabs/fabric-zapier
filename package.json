@@ -25,7 +25,7 @@
     "lodash.merge": "4.6.2"
   },
   "peerDependencies": {
-    "@fabric/core": "FabricLabs/fabric#feature/node-16",
-    "@fabric/http": "FabricLabs/fabric-http#feature/node-16"
+    "@fabric/core": "FabricLabs/fabric#master",
+    "@fabric/http": "FabricLabs/fabric-http#master"
   }
 }
