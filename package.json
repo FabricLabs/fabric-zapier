@@ -4,6 +4,8 @@
   "description": "Zapier service for Fabric.",
   "main": "services/zapier.js",
   "scripts": {
+    "make:coverage": "npm run coverage && c8 report --reporter html",
+    "report:coverage": "npm run make:coverage && c8 report --reporter=text-lcov > reports/coverage.lcov",
     "test": "mocha tests"
   },
   "repository": {
