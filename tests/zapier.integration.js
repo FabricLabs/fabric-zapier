@@ -10,5 +10,13 @@ describe('@fabric/zapier', function () {
       assert.ok(zapier);
       assert.ok(zapier.id);
     });
+
+    it('can start and stop', async function () {
+      const zapier = new Zapier();
+      await zapier.start();
+      await zapier.stop();
+      assert.ok(zapier);
+      assert.ok(zapier.id);
+    });
   });
 });
