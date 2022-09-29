@@ -4,6 +4,8 @@
   "description": "Zapier service for Fabric.",
   "main": "services/zapier.js",
   "scripts": {
+    "make:coverage": "npm run coverage && c8 report --reporter html",
+    "report:coverage": "npm run make:coverage && c8 report --reporter=text-lcov > reports/coverage.lcov",
     "test": "mocha tests"
   },
   "repository": {
@@ -22,10 +24,13 @@
   },
   "homepage": "https://github.com/FabricLabs/fabric-zapier#readme",
   "dependencies": {
-    "lodash.merge": "^4.6.2"
+    "lodash.merge": "4.6.2"
   },
   "peerDependencies": {
-    "@fabric/core": "FabricLabs/fabric#feature/node-16",
-    "@fabric/http": "FabricLabs/fabric-http#feature/node-16"
+    "@fabric/core": "FabricLabs/fabric#master",
+    "@fabric/http": "FabricLabs/fabric-http#master"
+  },
+  "devDependencies": {
+    "mocha": "10.0.0"
   }
 }
